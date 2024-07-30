@@ -25,6 +25,8 @@
 **STRIDE**
 16. Performed preliminary security threat modelling using STRIDE analysis **[ALL]**
 
+**Created a plan for the next stages**
+
 **Project artifacts** **[ALL]**
 
 **References** **[Luna]**
