@@ -22,6 +22,9 @@
 14. List of Technologies for the Project **[ALL]**
 15. Prototype **[ALL]**
 
+**STRIDE**
+16. Performed preliminary security threat modelling using STRIDE analysis **[ALL]**
+
 **Project artifacts** **[ALL]**
 
 **References** **[Luna]**
