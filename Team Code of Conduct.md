@@ -3,11 +3,11 @@
 **Goals/Philosophy**
 
 - **Core Principles**: We are committed to fostering an inclusive and respectful environment where all members feel valued and can contribute effectively. Our core principles include integrity, collaboration, transparency, and mutual respect.
-- **Norms**: We expect all team members to treat each other with respect, listen actively, and provide constructive feedback. Harassment, discrimination, or any form of exclusionary behavior will not be tolerated.
+- **Norms**: We expect all team members to treat each other with respect, listen actively, and provide constructive feedback. Harassment, discrimination, or any form of exclusionary behaviour will not be tolerated.
 
 **How You Will Communicate**
 
-- **Preferred Modes**: Teams for virtual meetings.
+- **Preferred Modes**: Teams for virtual meetings, WhatsApp and Teams Direct Chats for daily coordinations, OneDrive to share files.
 - **Project Management Tools**: GitHub.
 
 **Meetings**
@@ -24,12 +24,12 @@
 **Decision-Making and Conflict Resolution**
 
 - **Decision-Making**: Decisions will be made through consensus whenever possible. If consensus cannot be reached, a majority vote will be taken.
-- **Conflict Resolution**: Conflicts will be addressed promptly and respectfully. If a resolution cannot be reached within the team, a neutral third party will be consulted.
+- **Conflict Resolution**: Conflicts will be addressed promptly and respectfully. If a resolution cannot be reached within the team, a neutral third party will be consulted (lecturer or asesor).
 
 **Time-Keeping**
 
 - **Expectations**: Team members are expected to adhere to agreed-upon deadlines and communicate any delays as soon as possible.
-- **Monitoring**: Progress will be monitored through regular updates in Trello and discussed during weekly meetings.
+- **Monitoring**: Progress will be monitored through regular updates in GitHub Projects and discussed during weekly meetings.
 
 **Review**
 
