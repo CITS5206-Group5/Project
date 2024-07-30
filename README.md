@@ -1,6 +1,6 @@
 # Inner Works Counselling Project
 
-## CITS5206 Group5 Project members
+## CITS5206 Group5 Project 7 members
 
 | UWA ID  | Name | Github Username |
 |---------|------|-----------------|
