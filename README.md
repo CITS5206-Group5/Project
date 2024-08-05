@@ -34,3 +34,7 @@ Book an appointment provides a convenient and efficient way for clients to sched
 - Automated email confirmations and reminders.
 - Option for clients to reschedule or cancel appointments.
 - Secure and user-friendly interface.
+
+## Prototype
+
+https://www.figma.com/design/8t7VTFEfvaZTtBG3n6PYBS/innerworkscounselling.com.au?node-id=1-2&t=iQbKGjYWf5kSjMNG-1
