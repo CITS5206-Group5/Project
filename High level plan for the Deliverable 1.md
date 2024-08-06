@@ -23,6 +23,7 @@
 15. Prototype **[ALL]**
 
 **STRIDE**
+
 16. Performed preliminary security threat modelling using STRIDE analysis **[ALL]**
 
 **Created a plan for the next stages**
