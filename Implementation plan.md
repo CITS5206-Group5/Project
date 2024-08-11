@@ -26,8 +26,8 @@
 24. Implement breadcrumbs on all pages. **[5 hours]**
 25. Add logic to the `Share` button on the resource. **[5 hours]**
 26. Create an account in `AWeber`. Send login and password to Lita. **[1 hours]**
-27. Implement logic for sending contact information from the `Get Free Wellbeing Tips` form in `AWeber`. **[5 hours]**
-28. Implement logic for sending contact information from the form on the `Contacts` page in `AWeber`. **[5 hours]**
+27. Implement logic for sending contact information from the `Get Free Wellbeing Tips` form to `AWeber`. **[5 hours]**
+28. Implement logic for sending contact information from the form on the `Contacts` page to `AWeber`. **[5 hours]**
 29. Find and integrate a `chatbot` into the website. **[15 hours]**
 30. Ask Lita `frequently asked questions` and create a script for the `chatbot`. If the `chatbot` cannot answer the question, then send a message to Lita's email. **[10 hours]**
 31. Implement the logic for sending contact data from a chatbot to AWeber. **[5 hours]**
