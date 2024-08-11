@@ -14,8 +14,8 @@
 12. Integrate the `Resources` page into WordPress so that Lita can easily change the text on the `Resources` page herself, as well as add/edit/delete resources (blog). **[20 hours]**
 13. Integrate a single resource page into WordPress so that Lita can easily edit a resource herself. **[10 hours]**
 14. Implement `pagination` on the `Resources` page if there are more than 5 resources. **[7 hours]**
-15. The search field in resources should display search results without reloading the page. Minimum 3 characters. Maximum 5 results. **[20 hours]**
-16. Highlight the currently open page link in the menu. **[1 hours]**
+15. The `search field` in resources should display search results without reloading the page. Minimum 3 characters. Maximum 5 results. **[20 hours]**
+16. Highlight link of the currently open page in the menu. **[1 hours]**
 17. Add logic to the message form on the `Contact` page. Lita should receive a message to her email. **[10 hours]**
 18. Add logic to the `Get Free Wellbeing Tips` form. The website visitor should receive a pdf file to the specified email. Lita should receive a message with contacts to her email. **[10 hours]**
 19. When clicking on the email on the website, the email client should open. **[1 hours]**
