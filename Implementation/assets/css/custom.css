@@ -39,7 +39,7 @@ a:focus {
     color: white;
 }
 .iwc-nav-link:focus, .iwc-nav-link:hover, .navbar-toggler:focus, .navbar-toggler:hover {
-    color: #0C49A4;
+    color: #E1FBFF;
 }
 .iwc-nav-link.iwc-btn {
     display: inline-block;
@@ -147,6 +147,9 @@ a:focus {
     font-size: calc(1.2rem + 0.4vw);
     font-weight: 600;
 }
+.iwc-btn {
+    min-width: 150px;
+}
 .form-check {
     font-size: calc(1rem + 0.4vw);
 }
@@ -161,10 +164,10 @@ a:focus {
     cursor: pointer;
 }
 .modal-header img, .iwc-footer-basement img {
-    width: 1.5rem;
+    width: 3.5rem;
 }
-.modal-header, .modal-footer {
-    background-color: hsl(0, 0%, 96%);
+.modal-header, .modal-footer, .modal-body {
+    background-color: #E1FBFF;
 }
 .iwc-section-supp {
     height: 0;
@@ -221,14 +224,20 @@ a:focus {
 .iwc-dot-link {
     color: white;
 }
-.iwc-dot-link:focus, .iwc-dot-link:hover, .iwc-gold {
-    color: #0C49A4;
+.iwc-dot-link:focus, .iwc-dot-link:hover, .iwc-light-blue {
+    color: #E1FBFF;
 }
 .iwc-dot-link span {
     text-decoration-line: underline;
     text-decoration-style: dashed;
     text-decoration-thickness: 0.063rem;
     text-underline-offset: 0.28rem;
+}
+.iwc-resource-link {
+    color: inherit;
+}
+.iwc-resource-link:focus, .iwc-resource-link:hover {
+    color: #0d6efd;
 }
 .iwc-svg-hidden {
     position: absolute !important;
@@ -241,17 +250,40 @@ a:focus {
 .iwc-footer-basement {
     background-color: #2b2e31
 }
-.bi-linkedin {
-    color: #0077b5;
+.bi-facebook {
+    color: #0d6efd;
 }
-.bi-telegram {
-    color: #5ea9dd;
+.bi-tiktok {
+    color: white;
 }
-.bi-whatsapp {
-    color: #11ae09;
+.bi-instagram {
+    color: #dc3545;
 }
 .iwc-lh-lg {
     line-height: 2.5 !important;
+}
+.transparent-input {
+    background-color: transparent;
+    border: 3px solid #0C49A4;
+    color: #000;
+    transition: border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.transparent-input::placeholder {
+    color: #999;
+}
+
+.transparent-input:focus {
+    background-color: transparent;
+    border-width: 3px;
+    outline: none;
+    box-shadow: none;
+}
+.page-item .page-link {
+    background-color: transparent;
+}
+.page-item.active .page-link {
+    background-color: #0C49A4;
 }
 @media (min-width: 1900px) {
     .iwc-brand-logo {
