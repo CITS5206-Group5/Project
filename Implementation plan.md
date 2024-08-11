@@ -37,5 +37,7 @@
 35. Write step-by-step instructions with pictures for Lita on how to change data on the `Resources` page. **[3 hours]**
 36. Write step-by-step instructions with pictures for Lita on how to Create/Edit/Delete resources. **[7 hours]**
 37. Write step-by-step instructions with pictures for Lita on how to change data on the `Contacts` page. **[3 hours]**
-38. Transfer the website from our hosting to Lita's hosting. **[5 hours]**
-39. Prepare all logins and passwords for Lita. Help Lita to change passwords. **[3 hours]**
+38. Change color on mobile menu icon to Lita blue. **[1 hour]**
+39. Transfer the website from our hosting to Lita's hosting. **[5 hours]**
+40. Prepare all logins and passwords for Lita. Help Lita to change passwords. **[3 hours]**
+
