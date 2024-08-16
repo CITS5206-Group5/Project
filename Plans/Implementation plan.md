@@ -1,4 +1,4 @@
-**Implementation plan**
+**Implementation tasks**
 
 1. ~~Using the figma prototype, locally implement all static pages of the website with styles~~. **[20 hours]**
 2. ~~Buy hosting~~. **[1 hours]**
