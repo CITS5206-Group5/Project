@@ -4,9 +4,9 @@
 2. ~~Buy hosting~~. **[1 hours]**
 3. ~~Install WordPress on this hosting~~. **[2 hours]**
 4. ~~Upload static files to the website subdomain~~. **[1 hours]**
-5. Integrate the website header into WordPress, get rid of duplicate menus in static files. **[5 hours]**
-6. Integrate the website footer into WordPress, get rid of duplicate footer in static files. **[5 hours]**
-7. Integrate the `Home` page into WordPress so that Lita can easily and independently change the text on the `Home` page. **[5 hours]**
+5. Integrate the website header into WordPress, get rid of duplicate menus in static files. **[5 hours]** **[In Progess]**
+6. Integrate the website footer into WordPress, get rid of duplicate footer in static files. **[5 hours]** **[In Progess]**
+7. Integrate the `Home` page into WordPress so that Lita can easily and independently change the text on the `Home` page. **[5 hours]** **[In Progess]**
 8. Integrate the `About` page into WordPress so that Lita can easily and independently change the text and image on the `About` page. **[5 hours]**
 9. Integrate the `Services` page into WordPress so that Lita can easily change the text on the `Services` page herself. **[5 hours]**
 10. Integrate the `Contacts` page into WordPress so that Lita can easily change the contact information on the `Contacts` page herself. **[5 hours]**
@@ -30,7 +30,7 @@
 28. ~~Implement logic for sending contact information from the form on the `Contacts` page to `AWeber`.~~ **[5 hours]**
 29. Find and integrate a `chatbot` into the website. **[15 hours]**
 30. Ask Lita `frequently asked questions` and create a script for the `chatbot`. If the `chatbot` cannot answer the question, then send a message to Lita's email. **[10 hours]** **[In Progress]**
-31. Implement the logic for sending contact data from a `chatbot` to `AWeber`. **[5 hours]** **[In Progess]**
+31. Implement the logic for sending contact data from a `chatbot` to `AWeber`. **[5 hours]**
 32. Write step-by-step instructions with pictures for Lita on how to change data on the `Home` page. **[2 hours]**
 33. Write step-by-step instructions with pictures for Lita on how to change data on the `About` page. **[2 hours]**
 34. Write step-by-step instructions with pictures for Lita on how to change data on the `Services` page. **[2 hours]**
