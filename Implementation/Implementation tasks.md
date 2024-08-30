@@ -19,9 +19,9 @@
 17. ~~Add logic to the message form on the `Contact` page. Lita should receive a message to her email.~~ **[10 hours]**
 18. ~~Add logic to the `Get Free Wellbeing Tips` form. The website visitor should receive a pdf file to the specified email. Lita should receive a message with contacts to her email.~~ **[10 hours]**
 19. When clicking on the email on the website, the email client should open. **[1 hours]** **[In Progress]**
-20. Add links to social networks in the footer of the website. **[1 hours]**
-21. Add links to social networks on the `Contacts` page. **[1 hours]**
-22. Upload and add a link to the `Privacy Policy` in the footer of the website. **[2 hours]**
+20. Add links to social networks in the footer of the website. **[1 hours]**[In Progress]
+21. Add links to social networks on the `Contacts` page. **[1 hours]**[In Progress]
+22. Upload and add a link to the `Privacy Policy` in the footer of the website. **[2 hours]**[In Progress]
 23. The `Latest publications` on footer should display links to the last 5 created resources. **[7 hours]**
 24. Implement breadcrumbs on all pages. **[5 hours]**
 25. ~~Add logic to the `Share` button on the resource.~~ **[5 hours]**
