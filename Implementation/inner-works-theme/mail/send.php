@@ -2,94 +2,106 @@
 error_reporting(E_ALL ^ E_NOTICE);
 header("Content-type: text/html; charset=utf-8");
 
-include 'mail.php';
+require_once($_SERVER['DOCUMENT_ROOT'] . '/wp-load.php');
 
 $error = 1;
 
-$name = $_POST['first_name'] . ' ' . $_POST['last_name'] ?? '';
+$first_name = $_POST['first_name'] ?? '';
+$last_name = $_POST['last_name'] ?? '';
 $phone = $_POST['phone'] ?? '';
 $email = $_POST['email'] ?? '';
-$message = $_POST['message'] ?? '';
+$message_content = $_POST['message'] ?? '';
 
-if (!$name) {
+if (!$first_name || !$last_name) {
     $error = 'Enter name';
 }
 
-//Notify Lita
 if ($error == 1) {
-    $message = 'Name: ' . $name . ', Phone: ' . $phone . ', Email: ' . $email . ' Message: ' . $message;
-    $smtp = new SMTP($from, $username, $password, $host, $port);
-    $success = $smtp->send($to, 'Request from the website', $message);
+    global $wpdb;
+    $table_name = $wpdb->prefix . "contacts";
+
+    $is_sent = 0;
+    $date_added = current_time('mysql');
+
+    $inserted = $wpdb->insert(
+        $table_name,
+        [
+            'first_name' => $first_name,
+            'last_name' => $last_name,
+            'phone' => $phone,
+            'email' => $email,
+            'message' => $message_content,
+            'is_sent' => $is_sent,
+            'date_added' => $date_added
+        ]
+    );
+
+    if ($inserted === false) {
+        echo "Error inserting data into the database: " . $wpdb->last_error;
+        die();
+    }
+
+    $contact_id = $wpdb->insert_id;
+
+    // Notify Lita
+    $message = 'Name: ' . $first_name . ' ' . $last_name . ', Phone: ' . $phone . ', Email: ' . $email . ' Message: ' . $message_content;
+    $subject = 'Request from the website';
+
+    $headers = ['Content-Type: text/html; charset=UTF-8'];
+    $success = wp_mail(get_option('admin_email'), $subject, $message, $headers);
 
     if (!$success) {
         echo "Error during sending the mail";
         die();
+    }
+
+    // Send Free_Wellbeing_Tips.pdf
+    if (isset($_POST['action']) && $_POST['action'] === 'submit_wellbeing_tips_form') {
+        function find_pdf_file($filename) {
+            $upload_path = $_SERVER['DOCUMENT_ROOT'] . '/wp-content/uploads';
+            $upload_url = 'https://polis-finans.ru/wp-content/uploads';
+
+            $directory_iterator = new RecursiveDirectoryIterator($upload_path, RecursiveDirectoryIterator::SKIP_DOTS);
+            $iterator = new RecursiveIteratorIterator($directory_iterator);
+
+            foreach ($iterator as $file) {
+                if ($file->getFilename() === $filename) {
+                    $file_url = str_replace($upload_path, $upload_url, $file->getPathname());
+                    return $file_url;
+                }
+            }
+
+            return false;
+        }
+
+        $pdf_url = find_pdf_file('Free_Wellbeing_Tips.pdf');
+
+        if ($pdf_url) {
+            $message = "
+                    <p>Hello $first_name $last_name,</p>
+                    <p>Thank you for your interest! You can download the Free Wellbeing Tips PDF by clicking the link below:</p>
+                    <p><a href='$pdf_url'>$pdf_url</a></p>
+                    <p>Best regards,<br>Inner Works Counselling Team</p>
+                        ";
+            $subject = 'Your Free Wellbeing Tips';
+
+            $success = wp_mail($email, $subject, nl2br($message), $headers);
+
+            if ($success) {
+                $wpdb->update(
+                    $table_name,
+                    ['is_sent' => 1],
+                    ['id' => $contact_id]
+                );
+            } else {
+                echo "Error during sending the PDF";
+                die();
+            }
+        }
     }
 } else {
     echo $error;
     die();
 }
 
-//Send Free_Wellbeing_Tips.pdf
-if (isset($_POST['action']) && $_POST['action'] === 'submit_wellbeing_tips_form') {
-    function find_pdf_file($filename) {
-        $upload_path = $_SERVER['DOCUMENT_ROOT'] . '/wp-content/uploads';
-        $upload_url = 'https://polis-finans.ru/wp-content/uploads';
-
-        $directory_iterator = new RecursiveDirectoryIterator($upload_path, RecursiveDirectoryIterator::SKIP_DOTS);
-        $iterator = new RecursiveIteratorIterator($directory_iterator);
-
-        foreach ($iterator as $file) {
-            if ($file->getFilename() === $filename) {
-                $file_url = str_replace($upload_path, $upload_url, $file->getPathname());
-                return $file_url;
-            }
-        }
-
-        return false;
-    }
-
-    $pdf_url = find_pdf_file('Free_Wellbeing_Tips.pdf');
-
-    if ($pdf_url) {
-        $message = "Hello $name,\n\nThank you for your interest! You can download the Free Wellbeing Tips PDF by clicking the link below:\n\n$pdf_url\n\nBest regards,\nInner Works Counselling Team";
-        $smtp = new SMTP($from, $username, $password, $host, $port);
-        $success = $smtp->send($email, 'Your Free Wellbeing Tips', $message);
-
-        if (!$success) {
-            echo "Error during sending the mail";
-            die();
-        }
-    }
-}
-
-//Aweber
-$access_token = '62SNXOmnXY1SBegC';
-$account_id = '2309';
-$list_id = '689';
-
-$subscriber_data = [
-    'name' => $name,
-    'email' => $email
-];
-
-$api_url = "https://api.aweber.com/1.0/accounts/$account_id/lists/$list_id/subscribers";
-
-$ch = curl_init($api_url);
-curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-curl_setopt($ch, CURLOPT_HTTPHEADER, [
-    "Authorization: Bearer $access_token",
-    "Content-Type: application/json"
-]);
-curl_setopt($ch, CURLOPT_POST, true);
-curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($subscriber_data));
-$response = curl_exec($ch);
-curl_close($ch);
-
-$response_data = json_decode($response, true);
-if ($response_data !== null) {
-    echo 'Failed to add subscriber: ' . json_encode($response_data);
-    die();
-}
-
-echo "1";
+echo '1';
