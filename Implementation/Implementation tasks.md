@@ -32,12 +32,12 @@
 30. ~~Find and integrate a `chatbot` into the website.~~ **[15 hours]**
 31. ~~Ask Lita `frequently asked questions` and create a script for the `chatbot`. If the `chatbot` cannot answer the question, offer to send a message to Lita's email.~~ **[10 hours]** **[In Progress]**
 32. ~~Implement the logic for sending contact data from a `chatbot` to `AWeber`.~~ **[5 hours]**
-33. Write step-by-step instructions with pictures for Lita on how to change data on the `Home` page. **[2 hours]**
-34. Write step-by-step instructions with pictures for Lita on how to change data on the `About` page. **[2 hours]**
-35. Write step-by-step instructions with pictures for Lita on how to change data on the `Services` page. **[2 hours]**
-36. Write step-by-step instructions with pictures for Lita on how to change data on the `Resources` page. **[3 hours]**
+33. Write step-by-step instructions with pictures for Lita on how to change content on the `Home` page. **[2 hours]**
+34. Write step-by-step instructions with pictures for Lita on how to change content on the `About` page. **[2 hours]**
+35. Write step-by-step instructions with pictures for Lita on how to change content on the `Services` page. **[2 hours]**
+36. Write step-by-step instructions with pictures for Lita on how to change content on the `Resources` page. **[3 hours]**
 37. Write step-by-step instructions with pictures for Lita on how to Create/Edit/Delete resources. **[7 hours]**
-38. Write step-by-step instructions with pictures for Lita on how to change data on the `Contacts` page. **[3 hours]**
+38. Write step-by-step instructions with pictures for Lita on how to change content on the `Contacts` page. **[3 hours]**
 39. Change color on mobile menu icon to Lita blue. **[1 hour]**
 40. Transfer the website from our hosting to Lita's hosting. **[5 hours]**
 41. Prepare all logins and passwords for Lita. Help Lita to change passwords. **[3 hours]**
