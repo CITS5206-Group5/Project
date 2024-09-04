@@ -9,7 +9,7 @@
 7. Integrate the website footer into WordPress, get rid of duplicate footer in static files. **[5 hours]** **[In Progess]**
 8. ~~Integrate the `Home` page into WordPress so that Lita can easily and independently change the text on the `Home` page.~~ **[5 hours]** **[In Progess]**  **[In Progess]**
 9. ~~Integrate the `About` page into WordPress so that Lita can easily and independently change the text and image on the `About` page.~~ **[5 hours]**  **[In Progess]**
-10. Integrate the `Services` page into WordPress so that Lita can easily change the text on the `Services` page herself. **[5 hours]**  **[In Progess]**
+10. ~~Integrate the `Services` page into WordPress so that Lita can easily change the text on the `Services` page herself.~~ **[5 hours]**  **[In Progess]**
 11. ~~Integrate the `Contacts` page into WordPress so that Lita can easily change the contact information on the `Contacts` page herself.~~ **[5 hours]**  **[In Progess]**
 12. ~~Integrate the WordPress Blog into the Resources page.~~ **[10 hours]**
 13. ~~Integrate the `Resources` page into WordPress so that Lita can easily change the text on the `Resources` page herself, as well as add/edit/delete resources (blog).~~ **[20 hours]**
@@ -24,7 +24,7 @@
 22. ~~Add links to social networks on the `Contacts` page. **[1 hours]**[In Progress]~~
 23. ~~Upload and add a link to the `Privacy Policy` in the footer of the website. **[2 hours]**[In Progress]~~
 24. ~~The `Latest publications` on footer should display links to the last 5 created resources. **[7 hours]**~~
-25. Implement breadcrumbs on all pages. **[5 hours]**
+25. ~~Implement breadcrumbs on all pages.~~ **[5 hours]**
 26. ~~Add logic to the `Share` button on the resource.~~ **[5 hours]**
 27. ~~Create an account in `AWeber`. Send login and password to Lita.~~ **[1 hours]**
 28. ~~Implement logic for sending contact information from the `Get Free Wellbeing Tips` form to `AWeber`.~~ **[5 hours]**
