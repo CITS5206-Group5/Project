@@ -7,7 +7,7 @@
 5. ~~Integrate the website header into WordPress, get rid of duplicate menus in static files~~. **[5 hours]**
 6. ~~Integrate the `Get Free Wellbeing Tips` modal into the website header so that it can be used on every page.~~ **[2 hours]**
 7. Integrate the website footer into WordPress, get rid of duplicate footer in static files. **[5 hours]** **[In Progess]**
-8. Integrate the `Home` page into WordPress so that Lita can easily and independently change the text on the `Home` page. **[5 hours]** **[In Progess]**  **[In Progess]**
+8. ~~Integrate the `Home` page into WordPress so that Lita can easily and independently change the text on the `Home` page.~~ **[5 hours]** **[In Progess]**  **[In Progess]**
 9. ~~Integrate the `About` page into WordPress so that Lita can easily and independently change the text and image on the `About` page.~~ **[5 hours]**  **[In Progess]**
 10. Integrate the `Services` page into WordPress so that Lita can easily change the text on the `Services` page herself. **[5 hours]**  **[In Progess]**
 11. ~~Integrate the `Contacts` page into WordPress so that Lita can easily change the contact information on the `Contacts` page herself.~~ **[5 hours]**  **[In Progess]**
@@ -29,8 +29,8 @@
 27. ~~Create an account in `AWeber`. Send login and password to Lita.~~ **[1 hours]**
 28. ~~Implement logic for sending contact information from the `Get Free Wellbeing Tips` form to `AWeber`.~~ **[5 hours]**
 29. ~~Implement logic for sending contact information from the form on the `Contacts` page to `AWeber`.~~ **[5 hours]**
-30. Find and integrate a `chatbot` into the website. **[15 hours]**
-31. Ask Lita `frequently asked questions` and create a script for the `chatbot`. If the `chatbot` cannot answer the question, then send a message to Lita's email. **[10 hours]** **[In Progress]**
+30. ~~Find and integrate a `chatbot` into the website.~~ **[15 hours]**
+31. ~~Ask Lita `frequently asked questions` and create a script for the `chatbot`. If the `chatbot` cannot answer the question, offer to send a message to Lita's email.~~ **[10 hours]** **[In Progress]**
 32. ~~Implement the logic for sending contact data from a `chatbot` to `AWeber`.~~ **[5 hours]**
 33. Write step-by-step instructions with pictures for Lita on how to change data on the `Home` page. **[2 hours]**
 34. Write step-by-step instructions with pictures for Lita on how to change data on the `About` page. **[2 hours]**
