@@ -39,7 +39,12 @@ a:focus {
     color: white;
 }
 .iwc-nav-link:focus, .iwc-nav-link:hover, .navbar-toggler:focus, .navbar-toggler:hover {
-    color: #E1FBFF;
+    color: #0c49a4;
+}
+.iwc-nav-link.active {
+    color: #0c49a4 !important;
+    font-weight: 700;
+    text-decoration: underline;
 }
 .iwc-nav-link.iwc-btn {
     display: inline-block;
