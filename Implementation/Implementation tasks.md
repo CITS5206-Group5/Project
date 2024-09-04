@@ -35,7 +35,7 @@
 33. Write step-by-step instructions with pictures for Lita on how to change content on the `Home` page. **[2 hours]**
 34. Write step-by-step instructions with pictures for Lita on how to change content on the `About` page. **[2 hours]**
 35. Write step-by-step instructions with pictures for Lita on how to change content on the `Services` page. **[2 hours]**
-36. Write step-by-step instructions with pictures for Lita on how to change content on the `Resources` page. **[3 hours]**
+36. ~~Write step-by-step instructions with pictures for Lita on how to change content on the `Resources` page.~~ **[3 hours]**
 37. Write step-by-step instructions with pictures for Lita on how to Create/Edit/Delete resources. **[7 hours]**
 38. Write step-by-step instructions with pictures for Lita on how to change content on the `Contacts` page. **[3 hours]**
 39. Change color on mobile menu icon to Lita blue. **[1 hour]**
