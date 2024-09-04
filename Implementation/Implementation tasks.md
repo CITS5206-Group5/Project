@@ -6,7 +6,7 @@
 4. ~~Upload static files to the website subdomain~~. **[1 hours]**
 5. ~~Integrate the website header into WordPress, get rid of duplicate menus in static files~~. **[5 hours]**
 6. ~~Integrate the `Get Free Wellbeing Tips` modal into the website header so that it can be used on every page.~~ **[2 hours]**
-7. Integrate the website footer into WordPress, get rid of duplicate footer in static files. **[5 hours]** **[In Progess]**
+7. ~~Integrate the website footer into WordPress, get rid of duplicate footer in static files.~~ **[5 hours]** **[In Progess]**
 8. ~~Integrate the `Home` page into WordPress so that Lita can easily and independently change the text on the `Home` page.~~ **[5 hours]** **[In Progess]**  **[In Progess]**
 9. ~~Integrate the `About` page into WordPress so that Lita can easily and independently change the text and image on the `About` page.~~ **[5 hours]**  **[In Progess]**
 10. ~~Integrate the `Services` page into WordPress so that Lita can easily change the text on the `Services` page herself.~~ **[5 hours]**  **[In Progess]**
