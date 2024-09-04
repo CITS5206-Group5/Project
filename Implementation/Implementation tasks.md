@@ -23,7 +23,7 @@
 21. ~~Add links to social networks in the footer of the website. **[1 hours]**[In Progress]~~
 22. ~~Add links to social networks on the `Contacts` page. **[1 hours]**[In Progress]~~
 23. ~~Upload and add a link to the `Privacy Policy` in the footer of the website. **[2 hours]**[In Progress]~~
-24. The `Latest publications` on footer should display links to the last 5 created resources. **[7 hours]**
+24. ~~The `Latest publications` on footer should display links to the last 5 created resources. **[7 hours]**~~
 25. Implement breadcrumbs on all pages. **[5 hours]**
 26. ~~Add logic to the `Share` button on the resource.~~ **[5 hours]**
 27. ~~Create an account in `AWeber`. Send login and password to Lita.~~ **[1 hours]**
