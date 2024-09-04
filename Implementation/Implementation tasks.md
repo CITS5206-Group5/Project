@@ -9,7 +9,7 @@
 7. Integrate the `Home` page into WordPress so that Lita can easily and independently change the text on the `Home` page. **[5 hours]** **[In Progess]**  **[In Progess]**
 8. ~~Integrate the `About` page into WordPress so that Lita can easily and independently change the text and image on the `About` page.~~ **[5 hours]**  **[In Progess]**
 9. Integrate the `Services` page into WordPress so that Lita can easily change the text on the `Services` page herself. **[5 hours]**  **[In Progess]**
-10. Integrate the `Contacts` page into WordPress so that Lita can easily change the contact information on the `Contacts` page herself. **[5 hours]**  **[In Progess]**
+10. ~~Integrate the `Contacts` page into WordPress so that Lita can easily change the contact information on the `Contacts` page herself.~~ **[5 hours]**  **[In Progess]**
 11. ~~Integrate the WordPress Blog into the Resources page.~~ **[10 hours]**
 12. ~~Integrate the `Resources` page into WordPress so that Lita can easily change the text on the `Resources` page herself, as well as add/edit/delete resources (blog).~~ **[20 hours]**
 13. ~~Integrate a single resource page into WordPress so that Lita can easily edit a resource herself.~~ **[10 hours]**
