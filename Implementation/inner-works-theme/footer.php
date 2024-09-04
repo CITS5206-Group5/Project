@@ -13,7 +13,7 @@ $latest_posts = new WP_Query(array(
                 <div class="row g-3">
                     <div class="col-lg-12">
                         <p class="fs-5"><i class="bi bi-geo-alt iwc-light-blue"></i> <a class="iwc-dot-link" href="#" target="_blank">15 Silkeborg Crescent, Joondalup, 6027</a></p>
-                        <p class="fs-5" style="word-wrap: break-word;"><i class="bi bi-envelope iwc-light-blue"></i><a class="iwc-dot-link" href="mailto:admin@innerworkscounselling.com.au" target="_blank">&nbsp;admin@innerworkscounselling.com.au</a></p>
+                        <p class="fs-5" style="word-wrap: break-word;"><i class="bi bi-envelope iwc-light-blue"></i><a class="iwc-dot-link" href="mailto:admin@innerworkscounselling.com.au" target="_blank">&nbsp;admin@innerworkscounselling.com.au</a></p>
                         <p class="fs-5"><i class="bi bi-telephone iwc-light-blue"></i> 0432 778 490</p>
                         <p class="fs-5"><i class="bi bi-file-earmark-text"></i><a class="iwc-dot-link" href="<?php echo get_template_directory_uri(); ?>/assets/Privacy Policy.pdf" target="_blank"> <span>Privacy Policy</span></a></p>
                     </div>
