@@ -30,7 +30,7 @@
 28. ~~Implement logic for sending contact information from the form on the `Contacts` page to `AWeber`.~~ **[5 hours]**
 29. Find and integrate a `chatbot` into the website. **[15 hours]**
 30. Ask Lita `frequently asked questions` and create a script for the `chatbot`. If the `chatbot` cannot answer the question, then send a message to Lita's email. **[10 hours]** **[In Progress]**
-31. Implement the logic for sending contact data from a `chatbot` to `AWeber`. **[5 hours]**
+31. ~~Implement the logic for sending contact data from a `chatbot` to `AWeber`.~~ **[5 hours]**
 32. Write step-by-step instructions with pictures for Lita on how to change data on the `Home` page. **[2 hours]**
 33. Write step-by-step instructions with pictures for Lita on how to change data on the `About` page. **[2 hours]**
 34. Write step-by-step instructions with pictures for Lita on how to change data on the `Services` page. **[2 hours]**
