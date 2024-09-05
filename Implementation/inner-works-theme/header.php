@@ -11,6 +11,7 @@
 </head>
 <body <?php body_class(); ?>>
 <header>
+	<div id="alertMessage" class="alert d-none" role="alert" style="position: fixed; top: 30px; left: 50%; transform: translateX(-50%); z-index: 9999;"></div>
     <div class="container">
         <nav class="navbar navbar-expand-lg iwc-navbar">
             <div class="container-fluid">
