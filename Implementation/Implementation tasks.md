@@ -33,7 +33,7 @@
 31. ~~Ask Lita `frequently asked questions` and create a script for the `chatbot`. If the `chatbot` cannot answer the question, offer to send a message to Lita's email.~~ **[10 hours]**
 32. ~~Implement the logic for sending contact data from a `chatbot` to `AWeber`.~~ **[5 hours]**
 33. Write step-by-step instructions with pictures for Lita on how to change content on the `Home` page. **[2 hours]**
-34. Write step-by-step instructions with pictures for Lita on how to change content on the `About` page. **[2 hours]**
+34. ~~Write step-by-step instructions with pictures for Lita on how to change content on the `About` page.~~ **[2 hours]**
 35. Write step-by-step instructions with pictures for Lita on how to change content on the `Services` page. **[2 hours]**
 36. ~~Write step-by-step instructions with pictures for Lita on how to change content on the `Resources` page.~~ **[3 hours]**
 37. Write step-by-step instructions with pictures for Lita on how to Create/Edit/Delete resources. **[7 hours]**
