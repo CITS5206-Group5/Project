@@ -19,7 +19,7 @@
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.webp" alt="iwc" class="d-inline-block align-text-top iwc-brand-logo">
                     <span class="iwc-brand-text"></span>
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#iwcnavbar" aria-controls="iwcnavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" id="toggleButton">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="iwcnavbar">
