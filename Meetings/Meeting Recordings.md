@@ -9,7 +9,8 @@
 ### Weekly Sync - Every Saturday until the end of the project
 
 - **[Meeting Recording 2 - Saturday 10/08/2024](https://youtu.be/NLjEDSr7PVs)** - Main discussion points: MVP Scope Validation and Prototypes review.
-- **[Meeting Recording 4](https://github.com/gong-sh/minutes-of-meeting-markdown)** - Main discussion points: Future
+
+- **[Meeting Recording 5 - Saturday 07/09/2024](https://youtu.be/nYVNd2h2KP8?feature=shared)** - Main discussion points: Presentation of the new website, collect of feedback.
 
 ### Deliverables Review - [Date]
 
