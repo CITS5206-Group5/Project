@@ -13,32 +13,45 @@
 
 ## Project overview
 
-The goal of this project is to develop a professional and user-friendly website for Lita Oakes. The website will serve as a platform to showcase Lita Oakes's counseling services, share insightful articles, and allow clients to book appointments seamlessly. Lita Oakes's clients are individuals seeking counseling services for post-separation and divorce, low self-esteem, grief and loss, anxiety, and weight loss.
+The goal of this project is to develop a professional and user-friendly website for Lita Oakes. Lita Oakes's clients are individuals seeking counseling services for post-separation and divorce, low self-esteem, grief and loss, anxiety, and weight loss.
 
 ## Project Scope
 
-Home page provides a comprehensive overview of Lita Oakes's services, background, and contact information.
-- Introduction to Lita Oakes and her expertise.
-- Detailed description of services offered.
-- Contact information including phone number, email, and physical address.
-- Links to social media profiles.
-- A visually appealing and easy-to-navigate layout.
+- **Home Page**: A fully redesigned homepage offering an enhanced user experience that reflects
+the professionalism and warmth of Lita Oakes’s counselling services.
+- **About Page**: A polished presentation of Lita Oakes, including her mission, vision, and a brief
+personal introduction to build trust and connection with potential clients.
+- **Services Page**: Comprehensive descriptions and multimedia content that clearly outline each
+counselling service offered, helping clients make informed decisions.
+- **Resources Page**: A dedicated space for articles, blogs, news, and other relevant content,
+allowing Lita to share valuable insights and engage with her audience.
+- **Contact Page**: An easy-to-navigate contact page featuring essential information such as
+contact details, working hours, and an email form for direct inquiries.
+- **Chat Functionality**: An integrated chatbot designed to handle Frequently Asked Questions
+(FAQs) and collect user contact information for follow-up, ensuring prompt and efficient client
+support.
+- **Get Free Wellbeing Tips**: A 'Get Free Wellbeing Tips' feature encourages visitors to leave their
+name and email in exchange for wellbeing tips, which can be downloaded via a link sent to
+their email.
+- **CMS Capabilities**: A user-friendly system that allows Lita to easily update, create, and delete
+content across the website, ensuring she can manage the site independently with minimal
+technical assistance.
+- **Content Management**: The ability to manage and publish content such as articles, blogs, and
+news on the Resources Page, keeping the website fresh and informative.
 
-Resources (blog) create a space where Lita Oakes can share her thoughts, insights, and expertise with her audience.
-- A blog section accessible via the main navigation menu.
-- An admin panel for Lita Oakes to easily create, edit, and publish articles.
-- Search functionality to find specific articles.
-
-Book an appointment provides a convenient and efficient way for clients to schedule appointments with Lita Oakes.
-- An online booking form integrated into the website.
-- Calendar view to select available dates and times.
-- Automated email confirmations and reminders.
-- Option for clients to reschedule or cancel appointments.
-- Secure and user-friendly interface.
 
 ## Prototype
 
-https://www.figma.com/design/8t7VTFEfvaZTtBG3n6PYBS/innerworkscounselling.com.au?node-id=1-2&t=iQbKGjYWf5kSjMNG-1
+- https://www.figma.com/design/8t7VTFEfvaZTtBG3n6PYBS/innerworkscounselling.com.au?node-id=1-2&t=iQbKGjYWf5kSjMNG-1
 
-## Implementation v1
-https://static.polis-finans.ru/
+## Implementation
+
+### Sandbox
+
+- https://polis-finans.ru/
+- https://static.polis-finans.ru/
+
+### Production
+
+- https://innerworkscounselling.com.au/
+
