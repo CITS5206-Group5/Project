@@ -90,4 +90,21 @@ $(document).ready(function () {
   $("#getFWT").on("hidden.bs.modal", function () {
     resetModal();
   });
+
+  // collapse manually control
+  const $toggleButton = $("#toggleButton");
+  const $collapseMenu = $("#iwcnavbar");
+
+  // disable automatic toggling
+  const bsCollapse = new bootstrap.Collapse($collapseMenu[0], {
+    toggle: false,
+  });
+
+  $toggleButton.on("click", function () {
+    if ($collapseMenu.hasClass("show")) {
+      bsCollapse.hide();
+    } else {
+      bsCollapse.show();
+    }
+  });
 });
