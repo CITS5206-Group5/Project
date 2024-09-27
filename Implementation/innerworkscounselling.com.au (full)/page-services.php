@@ -1,5 +1,6 @@
 <?php
 /* Template Name: Services Page */
+/* redering header */
 get_header();
 ?>
 
@@ -19,7 +20,8 @@ get_header();
             </div>
             <?php the_content() ?>
             <div class="row mt-2 mb-2">
-                <div class="col-md-12 mt-5 mb-5 d-flex flex-column flex-md-row align-items-center justify-content-center gap-3 gap-lg-4">
+                
+            <div class="col-md-12 mt-5 mb-5 d-flex flex-column flex-md-row align-items-center justify-content-center gap-3 gap-lg-4">
                     <a class="iwc-btn bg-white" data-bs-toggle="modal" data-bs-target="#getFWT">Get Free Wellbeing Tips</a>
                     <a href="http://bensv.youcanbook.me" class="iwc-btn" target="_blank">Book Appointment Now</a>
                 </div>
