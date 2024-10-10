@@ -6,7 +6,7 @@
 
 - **[Meeting Recording 1](https://youtu.be/FeP3gBrLT7I)** - Topics covered: Project Scope, Requirements Specification.
 
-### Weekly Sync - Every Saturday until the end of the project
+### Client Meetings
 
 - **[Meeting Recording 2 - Saturday 10/08/2024](https://youtu.be/NLjEDSr7PVs)** - Main discussion points: MVP Scope Validation and Prototypes review.
 
