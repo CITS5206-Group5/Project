@@ -12,9 +12,5 @@
 
 - **[Meeting Recording 5 - Saturday 07/09/2024](https://youtu.be/nYVNd2h2KP8?feature=shared)** - Main discussion points: Presentation of the new website, collect of feedback.
 
-### Deliverables Review - [Date]
-
-- **[Meeting Recording 5](https://github.com/gong-sh/minutes-of-meeting-markdown)** - Key decisions made: Future
-- **[Meeting Recording 6](https://github.com/gong-sh/minutes-of-meeting-markdown)** - Key decisions made: Future
 
 
