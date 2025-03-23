@@ -44,13 +44,6 @@ news on the Resources Page, keeping the website fresh and informative.
 
 - https://www.figma.com/design/8t7VTFEfvaZTtBG3n6PYBS/innerworkscounselling.com.au?node-id=1-2&t=iQbKGjYWf5kSjMNG-1
 
-## Implementation
-
-### Sandbox
-
-- https://polis-finans.ru/
-- https://static.polis-finans.ru/
-
 ### Production
 
 - https://innerworkscounselling.com.au/
